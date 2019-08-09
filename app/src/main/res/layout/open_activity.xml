@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    tools:context=".view.USBCameraActivity"
+    tools:ignore="MergeRootFrame">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:navigationIcon="@null"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+       >
+
+        <com.serenegiant.usb.widget.UVCCameraTextureView
+            android:id="@+id/camera_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="fitXY" />
+
+
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_gallery"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="20dp"
+        fab:fab_label="Gallery"
+        android:contentDescription="Gallery"
+        fab:fab_size="normal"
+        fab:fab_colorNormal="#effacf"/>
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabLive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_live"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/fabGallery"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="14dp"
+        fab:fab_label="Live Text"
+        android:contentDescription="Live Text"
+        fab:fab_size="normal"
+        fab:fab_colorNormal="#effacf"/>
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabTakePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_usb"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/fabLive"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="14dp"
+        fab:fab_label="Take Picture"
+        android:contentDescription="Take Picture"
+        fab:fab_size="normal"
+        fab:fab_colorNormal="#effacf"/>
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_camera"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/fabTakePic"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="14dp"
+        fab:fab_label="Phone Camera"
+        android:contentDescription="Phone Camera"
+        fab:fab_size="normal"
+        fab:fab_colorNormal="#effacf"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabAdvanceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="11dp"
+        android:src="@drawable/ic_advance"
+        fab:fab_label="Bangla Text"
+        android:contentDescription="Advance Text"
+        fab:fab_size="mini"
+        fab:fab_colorNormal="#f5f7ed"/>
+
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabObstacle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="11dp"
+        android:src="@drawable/ic_reply_arrow"
+        android:contentDescription="Check Obstacle"
+        fab:fab_label="Check Obstacle"
+        fab:fab_size="mini"
+        fab:fab_colorNormal="#f5f7ed"/>
+
+</RelativeLayout>

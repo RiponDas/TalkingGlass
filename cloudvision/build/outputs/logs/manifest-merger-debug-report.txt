@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:3:5-62
+		INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+		INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:2:1-17:12
+		INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:2:1-17:12
+		INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera
+ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:8:22-62
+application
+ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:10:5-15:19
+	android:supportsRtl
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:13:9-35
+	android:hardwareAccelerated
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml:11:9-35
+uses-sdk
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+		INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+		ADDED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml
+		INJECTED from F:\Last7Days\AndroidUSBCamera-master\cloudvision\src\main\AndroidManifest.xml

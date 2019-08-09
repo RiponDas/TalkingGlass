@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="450dp"
+        android:layout_weight="9"
+        android:contentDescription="@string/select_image_for_text_recognition"
+        android:scaleType="fitStart"
+        />
+
+    <com.google.firebase.codelab.mlkit.GraphicOverlay
+        android:id="@+id/graphic_overlay"
+        android:layout_width="379dp"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+       />
+
+
+    <TextView
+        android:id="@+id/imageText"
+        android:layout_width="fill_parent"
+        android:layout_height="273dp"
+        android:layout_weight="9"
+        android:text="Object"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/graphic_overlay" />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="11dp"
+        android:src="@drawable/ic_text"
+        fab:fab_label="Find Text"
+        android:contentDescription="Text"
+        fab:fab_size="mini"
+        fab:fab_colorNormal="#f5f7ed"/>
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabObject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="11dp"
+        android:src="@drawable/ic_object"
+        fab:fab_label="Find Object"
+        android:contentDescription="Find Object"
+        fab:fab_size="mini"
+        fab:fab_colorNormal="#f5f7ed"/>
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="11dp"
+        android:src="@drawable/ic_front_camera"
+        fab:fab_label="Find Face"
+        android:contentDescription="Find Face"
+        fab:fab_size="mini"
+        fab:fab_colorNormal="#f5f7ed"/>
+
+</RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
